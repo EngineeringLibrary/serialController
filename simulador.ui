@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Simulador</class>
+ <widget class="QDialog" name="Simulador">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>855</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>172</red>
+        <green>199</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>172</red>
+        <green>199</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>172</red>
+        <green>199</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>172</red>
+        <green>199</green>
+        <blue>225</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Simulador</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QMenuBar" name="menuBar"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Entrada</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0" colspan="2">
+          <widget class="QTextEdit" name="textEdit"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="text">
+            <string>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.951625819640404,1.81269246922018,2.59181779318282,3.29679953964361,3.93469340287367,4.51188363905974,5.03414696208591,5.50671035882778,5.93430340259401,6.32120558828558,6.67128916301921,6.98805788087798,7.27468206965988,7.53403036058394,7.76869839851570,7.98103482005345,8.17316475947266,8.34701111778414,8.50431380777365,8.64664716763388,8.77543571747018,8.89196841637666,8.99741156277196,9.09282046710588,9.17915001376101,9.25726421785666,9.32794487260250,9.39189937374782,9.44976779943593,9.50212931632136,9.54950797606442,9.59237796021634,9.63116832598760,9.66626730039674,9.69802616577682,9.72676277552707,9.75276473529661,9.77629228143834,9.79758088554196,9.81684361111266,9.83427324598239,9.85004423179522,9.86431440987799,9.87722660096932,9.88891003461758,9.89948164255367,9.90904722898304,9.91770252950980,9.92553416929076,9.93262053000915,9.93903253434484,9.94483435579239,9.95008406093090,9.95483419057387,9.95913228561536,9.96302136283517,9.96654034542529,9.96972445254624,9.97260555181232,9.97521247823334,9.97757132280514,9.97970569363704,9.98163695222971,9.98338442726826,9.98496560807022,9.98639631962452,9.98769088097327,9.98886224852155,9.98992214570951,9.99088118034445,9.99174895076734,9.99253414191623,9.99324461224806,9.99388747238870,9.99446915629852,9.99499548566559,9.99547172817113,9.99590265021020,9.99629256459541,9.99664537372097,9.99696460861921,9.99725346430028,9.99751483172892,9.99775132675821,9.99796531630989,9.99815894206332,9.99833414189012,9.99849266924904,9.99863611073518,9.99876590195913,9.99888334191510,9.99898960598163,9.99908575768522,9.99917275934443,9.99925148170112,9.99932271263509,9.99938716504947,9.99944548400568,9.99949825317944,9.99954600070238,9.99958920444775,9.99962829681316,9.99966366904814,9.99969567516992,9.99972463550650,9.99975083990269,9.99977455062087,9.99979600496589,9.99981541766004,9.99983298299210,9.99984887676180,9.99986325803934,9.99987627075738,9.99988804515158,9.99989869906402,9.99990833912264,9.99991706180839,9.99992495442085,9.99993209595193,9.99993855787647,9.99994440486758,9.99994969544393,9.99995448255537,9.99995881411292,9.99996273346828,9.99996627984766,9.99996948874442,9.99997239227428,9.99997501949674,9.99997739670593,9.99997954769375,9.99998149398802,9.99998325506791,9.99998484855888,9.99998629040914,9.99998759504920,9.99998877553635,9.99998984368529,9.99999081018642,9.99999168471281,9.99999247601701,9.99999319201866,9.99999383988374,9.99999442609631,9.99999495652337,9.99999543647363,9.99999587075058,9.99999626370062,9.99999661925651,9.99999694097680,9.99999723208134,9.99999749548363,9.99999773381987,9.99999794947543,9.99999814460864,9.99999832117247,9.99999848093403,9.99999862549227,9.99999875629398,9.99999887464825,9.99999898173963,9.99999907863992,9.99999916631892,9.99999924565416,9.99999931743966,9.99999938239387,9.99999944116686,9.99999949434687,9.99999954246612,9.99999958600623,9.99999962540294,9.99999966105057,9.99999969330587,9.99999972249167,9.99999974890008,9.99999977279540,9.99999979441678,9.99999981398061,9.99999983168269,9.99999984770020,9.99999986219344,9.99999987530747,9.99999988717353,9.99999989791039,9.99999990762550,9.99999991641610,9.99999992437016,9.99999993156729,9.99999993807952,9.99999994397203,9.99999994930380,9.99999995412818,9.99999995849346,9.99999996244333,9.99999996601732,9.99999996925120,9.99999997217734,9.99999997482501,9.99999997722073,9.99999997938846,9.99999998134991,9.99999998312470,9.99999998473060,9.99999998618367,9.99999998749847,9.99999998868815,9.99999998976461,9.99999999073864,9.99999999161997,9.99999999241744,9.99999999313902,9.99999999379192,9.99999999438270,9.99999999491726,9.99999999540094,9.99999999583860,9.99999999623461,9.99999999659294,9.99999999691716,9.99999999721053,9.99999999747599,9.99999999771618,9.99999999793351,9.99999999813016,9.99999999830810,9.99999999846911,9.99999999861479,9.99999999874661,9.99999999886589,9.99999999897381,9.99999999907147,9.99999999915983,9.99999999923978,9.99999999931213,9.99999999937759,9.99999999943682,9.99999999949041,9.99999999953890,9.99999999958278,9.99999999962249,9.99999999965841,9.99999999969092,9.99999999972033,9.99999999974695,9.99999999977103,9.99999999979282,9.99999999981253,9.99999999983037,9.99999999984652,9.99999999986112,9.99999999987434,9.99999999988630,9.99999999989712,9.99999999990691,9.99999999991577,9.99999999992378,9.99999999993104,9.99999999993760,9.99999999994354,9.99999999994891,9.99999999995377,9.99999999995817,9.99999999996215,9.99999999996575,9.99999999996901,9.99999999997196,9.99999999997463,9.99999999997704,9.99999999997923,9.99999999998120,9.99999999998299,9.99999999998461,9.99999999998608,9.99999999998740,9.99999999998860,9.99999999998969,9.99999999999067,9.99999999999156,9.99999999999236,9.99999999999309,9.99999999999374,9.99999999999434,9.99999999999488,9.99999999999537,9.99999999999581,9.99999999999621,9.99999999999657,9.99999999999689,9.99999999999719,9.99999999999746,9.99999999999770,9.99999999999792,9.99999999999812,9.99999999999830,9.99999999999846,9.99999999999860,9.99999999999874,9.99999999999886,9.99999999999897,9.99999999999906,9.99999999999915,9.99999999999923,9.99999999999931,9.99999999999937,9.99999999999943,9.99999999999949,9.99999999999954,9.99999999999958,9.99999999999962,9.99999999999966,9.99999999999969,9.99999999999972,9.99999999999975,9.99999999999977,9.99999999999979,9.99999999999981,9.99999999999983,9.99999999999985,9.99999999999986,9.99999999999987,9.99999999999989,9.99999999999990,9.99999999999991,9.99999999999992,9.99999999999993,9.99999999999993,9.99999999999994,9.99999999999994,9.99999999999995,9.99999999999995,9.99999999999996,9.99999999999996,9.99999999999997,9.99999999999997,9.99999999999997,9.99999999999998,9.99999999999998,9.99999999999998,9.99999999999998,9.99999999999998,9.99999999999998,9.99999999999999,9.99999999999999,9.99999999999999,9.99999999999999,9.99999999999999,9.99999999999999,9.99999999999999,9.99999999999999,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000,10.0000000000000</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="lineEdit_2">
+           <property name="text">
+            <string>0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" colspan="2">
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>Simular</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Y</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>U</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="lineEdit_3">
+           <property name="text">
+            <string>1.0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Período de Amostragem</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Gráficos</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0" colspan="2">
+        <widget class="QWidget" name="widget" native="true"/>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QWidget" name="widget_2" native="true"/>
+       </item>
+       <item row="2" column="1">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Ki</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Kp</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QSlider" name="horizontalSlider_2">
+           <property name="maximum">
+            <number>10000</number>
+           </property>
+           <property name="singleStep">
+            <number>1</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QSlider" name="horizontalSlider_3">
+           <property name="maximum">
+            <number>10000</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Kd</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QSlider" name="horizontalSlider">
+           <property name="maximum">
+            <number>10000</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QSlider" name="horizontalSlider_4">
+           <property name="maximum">
+            <number>10000</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>Sensibilidade</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="2" column="1" colspan="2">
+          <widget class="QComboBox" name="comboBox_2">
+           <item>
+            <property name="text">
+             <string>Métodos de Aproximação de Modelos </string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    Curva de Reação</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ZN</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    Smith</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    SK</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>Controladores</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Modelos</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="2">
+          <widget class="QComboBox" name="comboBox">
+           <property name="currentIndex">
+            <number>25</number>
+           </property>
+           <item>
+            <property name="text">
+             <string>Proporcional (P)</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ZN</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Servo 0 Ov</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Servo 20 OV</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Regulatório</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CohenCoon</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IAE - Lopes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ITAE - Lopes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IAE - Rovira</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ITAE - Rovira</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IMC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>---------------------------------------------------</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Proporciona e Integral (PI)</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ZN</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Servo 0 Ov</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Servo 20 OV</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Regulatório</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CohenCoon</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IAE - Lopes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ITAE - Lopes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IAE - Rovira</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ITAE - Rovira</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IMC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>---------------------------------------------------</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Proporciona e Integral e Derivativo (PID)</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ZN</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Servo 0 Ov</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Servo 20 OV</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CHR - Regulatório</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    CohenCoon</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IAE - Lopes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ITAE - Lopes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IAE - Rovira</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    ITAE - Rovira</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>    IMC</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="3">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>                                        Sintonia manual                                       </string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="3">
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string>Enviar Valores</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>4</width>
+     <height>12</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>3</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

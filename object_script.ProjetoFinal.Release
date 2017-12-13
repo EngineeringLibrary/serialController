@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\client.o
+./release\tcpserver.o
+./release\comunicacao.o
+./release\qcustomplot.o
+./release\moc_mainwindow.o
+./release\moc_client.o
+./release\moc_tcpserver.o
+./release\moc_qcustomplot.o
+);
